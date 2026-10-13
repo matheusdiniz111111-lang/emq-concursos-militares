@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Lion flame SVG used as course icon (placed at static-demo/assets/lion.svg) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffef9a"/>
+      <stop offset="35%" stop-color="#ffbb3b"/>
+      <stop offset="65%" stop-color="#f76d1a"/>
+      <stop offset="100%" stop-color="#b70f0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" fill="none" />
+  <path d="M20 86C26 36 61 18 86 26C100 30 108 40 114 52C124 69 126 94 113 112C98 133 70 141 47 133C31 127 21 112 20 86Z" fill="url(#g1)" opacity="0.96"/>
+  <path d="M54 40C45 44 38 53 35 66C33 75 36 84 42 92C47 98 54 102 62 101C59 92 60 81 66 74C73 66 83 62 92 60C87 49 78 43 66 40C62 39 58 39 54 40Z" fill="#f9c65d" opacity="0.9"/>
+  <path d="M59 90L72 82L82 91L71 104L59 90Z" fill="#f7d27a"/>
+  <path d="M78 74L98 66L108 79L88 97L78 74Z" fill="#f3b14d"/>
+  <path d="M58 95C49 111 39 119 28 124C36 128 46 130 58 129C69 128 80 125 89 117C81 109 71 101 58 95Z" fill="#ff5c1f"/>
+  <path d="M72 103C82 122 96 130 112 133C100 139 82 144 63 139C46 134 34 122 29 109C41 110 57 110 72 103Z" fill="#d31111"/>
+</svg>
