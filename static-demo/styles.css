@@ -370,10 +370,10 @@ h1 {
   flex-shrink: 0;
 }
 
-.course-icon svg {
+.course-icon img {
   width: 100%;
   height: 100%;
-  display: block;
+  object-fit: cover;
 }
 
 .course-card h3 {
@@ -552,7 +552,7 @@ h1 {
   margin-bottom: 14px;
 }
 
-.bar-row:last-child {
+bar-row:last-child {
   margin-bottom: 0;
 }
 
