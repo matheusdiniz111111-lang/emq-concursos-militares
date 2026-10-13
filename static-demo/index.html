@@ -17,7 +17,6 @@
     <header class="topbar">
       <div class="container nav-shell">
         <a href="#top" class="brand" aria-label="EMQ Concursos Militares">
-          <!-- Lion mascot mark (kept inside the rounded mark) -->
           <span class="brand-mark" aria-hidden="true">
             <svg viewBox="0 0 120 120" role="img" aria-label="Mascote leonino EMQ">
               <defs>
@@ -27,11 +26,7 @@
                   <stop offset="100%" stop-color="#b86607"/>
                 </linearGradient>
               </defs>
-
-              <!-- background circle for contrast -->
               <circle cx="60" cy="60" r="58" fill="#071428" />
-
-              <!-- simplified stylized lion head and mane -->
               <g transform="translate(12,10) scale(0.75)">
                 <path d="M40 12c-8 2-15 8-19 15-3 6-4 12-3 18 1 6 5 12 11 15 6 4 13 5 20 4 6-1 12-5 16-10 4-6 5-13 3-20-2-7-8-13-15-17-6-3-13-4-13-5z" fill="url(#maneGrad2)"/>
                 <path d="M52 37c3 0 6 2 7 4 1 2 1 5 0 7-1 3-3 5-6 6-3 1-6 0-8-2-2-2-3-5-2-8 1-3 4-6 9-7z" fill="#0b2030"/>
@@ -39,11 +34,9 @@
                 <circle cx="46" cy="49" r="2" fill="#f6f6fb" />
                 <circle cx="56" cy="49" r="2" fill="#f6f6fb" />
               </g>
-
             </svg>
           </span>
 
-          <!-- EMQ text outside the mark, replacing the 'Reta' position from reference -->
           <span class="brand-copy">
             <span class="brand-emq">EMQ</span>
             <span class="brand-sub">CONCURSOS MILITARES</span>
@@ -138,8 +131,41 @@
         <div class="course-grid">
           <article class="course-card">
             <div class="course-header">
-              <div class="course-icon">∑</div>
-              <span class="badge">NÍVEL 1</span>
+              <div class="course-icon" aria-hidden="true">
+                <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="lionFlame1" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffef9a"/>
+                      <stop offset="35%" stop-color="#ffbb3b"/>
+                      <stop offset="65%" stop-color="#f76d1a"/>
+                      <stop offset="100%" stop-color="#b70f0f"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M20 86C26 36 61 18 86 26C100 30 108 40 114 52C124 69 126 94 113 112C98 133 70 141 47 133C31 127 21 112 20 86Z" fill="url(#lionFlame1)" opacity="0.96"/>
+                  <path d="M54 40C45 44 38 53 35 66C33 75 36 84 42 92C47 98 54 102 62 101C59 92 60 81 66 74C73 66 83 62 92 60C87 49 78 43 66 40C62 39 58 39 54 40Z" fill="#f9c65d" opacity="0.9"/>
+                  <path d="M59 90L72 82L82 91L71 104L59 90Z" fill="#f7d27a"/>
+                  <path d="M78 74L98 66L108 79L88 97L78 74Z" fill="#f3b14d"/>
+                  <path d="M58 95C49 111 39 119 28 124C36 128 46 130 58 129C69 128 80 125 89 117C81 109 71 101 58 95Z" fill="#ff5c1f"/>
+                  <path d="M72 103C82 122 96 130 112 133C100 139 82 144 63 139C46 134 34 122 29 109C41 110 57 110 72 103Z" fill="#d31111"/>
+                  <path d="M124 52C136 55 145 66 141 82C139 92 132 101 120 104C120 91 117 77 108 67C112 60 118 54 124 52Z" fill="#ffbf45" opacity="0.9"/>
+                  <path d="M97 65L108 43C117 48 122 56 123 66L111 78L97 65Z" fill="#f5c95f"/>
+                  <path d="M55 66C67 56 80 54 91 61C101 67 108 78 108 90C108 109 96 124 79 129C63 135 46 130 35 117C28 109 24 98 25 87C27 75 38 69 55 66Z" fill="#f3b964"/>
+                  <path d="M67 69C74 59 88 57 97 63C103 67 108 75 108 84C108 96 100 107 88 111C75 116 61 112 54 101C48 92 50 80 58 74C60 72 64 70 67 69Z" fill="#f9dd9d"/>
+                  <path d="M46 95C54 88 62 84 71 83C69 95 67 104 60 112C53 119 43 123 33 122C35 111 40 102 46 95Z" fill="#e58d2f"/>
+                  <path d="M67 85L77 90L68 98L58 92L67 85Z" fill="#151515"/>
+                  <path d="M80 90L89 96L81 102L72 96L80 90Z" fill="#151515"/>
+                  <path d="M46 97C52 99 58 103 61 109C53 112 46 112 40 109C39 104 41 100 46 97Z" fill="#be2d16"/>
+                  <path d="M59 101C66 109 80 111 90 104C95 100 99 95 101 89C110 97 112 108 105 118C98 129 84 136 69 135C53 134 40 128 32 115C35 110 41 105 48 102C52 100 56 100 59 101Z" fill="#f9d37d" opacity="0.9"/>
+                  <path d="M57 110C62 117 70 121 79 121C88 121 95 118 101 111C98 119 90 124 81 128C71 131 60 130 51 124C52 118 54 114 57 110Z" fill="#d87b1d"/>
+                  <path d="M64 88C68 86 72 86 76 89C80 92 80 98 76 100C72 103 66 102 62 99C58 96 60 90 64 88Z" fill="#141414"/>
+                  <path d="M78 114C82 118 90 119 97 117C94 123 88 128 80 129C71 130 62 127 55 121C60 117 66 114 78 114Z" fill="#d91b1a"/>
+                  <path d="M81 89L92 83L100 89L91 96L81 89Z" fill="#141414"/>
+                  <path d="M62 70L52 73L47 65L58 62L62 70Z" fill="#f4c154"/>
+                  <path d="M72 58L67 46L76 39L84 54L72 58Z" fill="#f9e0a2"/>
+                  <path d="M94 63L102 47L112 52L103 70L94 63Z" fill="#f4d67a"/>
+                  <path d="M26 95C20 102 18 110 18 120C28 117 35 110 40 102C35 100 30 98 26 95Z" fill="#ff9e2a"/>
+                </svg>
+              </div>
             </div>
             <h3>Raciocínio Lógico</h3>
             <p>Estratégias para quebrar questões de lógica, sequências, analítica e argumentação rápida.</p>
@@ -151,8 +177,41 @@
 
           <article class="course-card">
             <div class="course-header">
-              <div class="course-icon">A</div>
-              <span class="badge">NÍVEL 2</span>
+              <div class="course-icon" aria-hidden="true">
+                <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="lionFlame2" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffef9a"/>
+                      <stop offset="35%" stop-color="#ffbb3b"/>
+                      <stop offset="65%" stop-color="#f76d1a"/>
+                      <stop offset="100%" stop-color="#b70f0f"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M20 86C26 36 61 18 86 26C100 30 108 40 114 52C124 69 126 94 113 112C98 133 70 141 47 133C31 127 21 112 20 86Z" fill="url(#lionFlame2)" opacity="0.96"/>
+                  <path d="M54 40C45 44 38 53 35 66C33 75 36 84 42 92C47 98 54 102 62 101C59 92 60 81 66 74C73 66 83 62 92 60C87 49 78 43 66 40C62 39 58 39 54 40Z" fill="#f9c65d" opacity="0.9"/>
+                  <path d="M59 90L72 82L82 91L71 104L59 90Z" fill="#f7d27a"/>
+                  <path d="M78 74L98 66L108 79L88 97L78 74Z" fill="#f3b14d"/>
+                  <path d="M58 95C49 111 39 119 28 124C36 128 46 130 58 129C69 128 80 125 89 117C81 109 71 101 58 95Z" fill="#ff5c1f"/>
+                  <path d="M72 103C82 122 96 130 112 133C100 139 82 144 63 139C46 134 34 122 29 109C41 110 57 110 72 103Z" fill="#d31111"/>
+                  <path d="M124 52C136 55 145 66 141 82C139 92 132 101 120 104C120 91 117 77 108 67C112 60 118 54 124 52Z" fill="#ffbf45" opacity="0.9"/>
+                  <path d="M97 65L108 43C117 48 122 56 123 66L111 78L97 65Z" fill="#f5c95f"/>
+                  <path d="M55 66C67 56 80 54 91 61C101 67 108 78 108 90C108 109 96 124 79 129C63 135 46 130 35 117C28 109 24 98 25 87C27 75 38 69 55 66Z" fill="#f3b964"/>
+                  <path d="M67 69C74 59 88 57 97 63C103 67 108 75 108 84C108 96 100 107 88 111C75 116 61 112 54 101C48 92 50 80 58 74C60 72 64 70 67 69Z" fill="#f9dd9d"/>
+                  <path d="M46 95C54 88 62 84 71 83C69 95 67 104 60 112C53 119 43 123 33 122C35 111 40 102 46 95Z" fill="#e58d2f"/>
+                  <path d="M67 85L77 90L68 98L58 92L67 85Z" fill="#151515"/>
+                  <path d="M80 90L89 96L81 102L72 96L80 90Z" fill="#151515"/>
+                  <path d="M46 97C52 99 58 103 61 109C53 112 46 112 40 109C39 104 41 100 46 97Z" fill="#be2d16"/>
+                  <path d="M59 101C66 109 80 111 90 104C95 100 99 95 101 89C110 97 112 108 105 118C98 129 84 136 69 135C53 134 40 128 32 115C35 110 41 105 48 102C52 100 56 100 59 101Z" fill="#f9d37d" opacity="0.9"/>
+                  <path d="M57 110C62 117 70 121 79 121C88 121 95 118 101 111C98 119 90 124 81 128C71 131 60 130 51 124C52 118 54 114 57 110Z" fill="#d87b1d"/>
+                  <path d="M64 88C68 86 72 86 76 89C80 92 80 98 76 100C72 103 66 102 62 99C58 96 60 90 64 88Z" fill="#141414"/>
+                  <path d="M78 114C82 118 90 119 97 117C94 123 88 128 80 129C71 130 62 127 55 121C60 117 66 114 78 114Z" fill="#d91b1a"/>
+                  <path d="M81 89L92 83L100 89L91 96L81 89Z" fill="#141414"/>
+                  <path d="M62 70L52 73L47 65L58 62L62 70Z" fill="#f4c154"/>
+                  <path d="M72 58L67 46L76 39L84 54L72 58Z" fill="#f9e0a2"/>
+                  <path d="M94 63L102 47L112 52L103 70L94 63Z" fill="#f4d67a"/>
+                  <path d="M26 95C20 102 18 110 18 120C28 117 35 110 40 102C35 100 30 98 26 95Z" fill="#ff9e2a"/>
+                </svg>
+              </div>
             </div>
             <h3>Português</h3>
             <p>Compreensão textual, gramática aplicada, regência, crase, concordância e pontuação.</p>
@@ -164,8 +223,41 @@
 
           <article class="course-card">
             <div class="course-header">
-              <div class="course-icon">π</div>
-              <span class="badge">NÍVEL 3</span>
+              <div class="course-icon" aria-hidden="true">
+                <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="lionFlame3" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffef9a"/>
+                      <stop offset="35%" stop-color="#ffbb3b"/>
+                      <stop offset="65%" stop-color="#f76d1a"/>
+                      <stop offset="100%" stop-color="#b70f0f"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M20 86C26 36 61 18 86 26C100 30 108 40 114 52C124 69 126 94 113 112C98 133 70 141 47 133C31 127 21 112 20 86Z" fill="url(#lionFlame3)" opacity="0.96"/>
+                  <path d="M54 40C45 44 38 53 35 66C33 75 36 84 42 92C47 98 54 102 62 101C59 92 60 81 66 74C73 66 83 62 92 60C87 49 78 43 66 40C62 39 58 39 54 40Z" fill="#f9c65d" opacity="0.9"/>
+                  <path d="M59 90L72 82L82 91L71 104L59 90Z" fill="#f7d27a"/>
+                  <path d="M78 74L98 66L108 79L88 97L78 74Z" fill="#f3b14d"/>
+                  <path d="M58 95C49 111 39 119 28 124C36 128 46 130 58 129C69 128 80 125 89 117C81 109 71 101 58 95Z" fill="#ff5c1f"/>
+                  <path d="M72 103C82 122 96 130 112 133C100 139 82 144 63 139C46 134 34 122 29 109C41 110 57 110 72 103Z" fill="#d31111"/>
+                  <path d="M124 52C136 55 145 66 141 82C139 92 132 101 120 104C120 91 117 77 108 67C112 60 118 54 124 52Z" fill="#ffbf45" opacity="0.9"/>
+                  <path d="M97 65L108 43C117 48 122 56 123 66L111 78L97 65Z" fill="#f5c95f"/>
+                  <path d="M55 66C67 56 80 54 91 61C101 67 108 78 108 90C108 109 96 124 79 129C63 135 46 130 35 117C28 109 24 98 25 87C27 75 38 69 55 66Z" fill="#f3b964"/>
+                  <path d="M67 69C74 59 88 57 97 63C103 67 108 75 108 84C108 96 100 107 88 111C75 116 61 112 54 101C48 92 50 80 58 74C60 72 64 70 67 69Z" fill="#f9dd9d"/>
+                  <path d="M46 95C54 88 62 84 71 83C69 95 67 104 60 112C53 119 43 123 33 122C35 111 40 102 46 95Z" fill="#e58d2f"/>
+                  <path d="M67 85L77 90L68 98L58 92L67 85Z" fill="#151515"/>
+                  <path d="M80 90L89 96L81 102L72 96L80 90Z" fill="#151515"/>
+                  <path d="M46 97C52 99 58 103 61 109C53 112 46 112 40 109C39 104 41 100 46 97Z" fill="#be2d16"/>
+                  <path d="M59 101C66 109 80 111 90 104C95 100 99 95 101 89C110 97 112 108 105 118C98 129 84 136 69 135C53 134 40 128 32 115C35 110 41 105 48 102C52 100 56 100 59 101Z" fill="#f9d37d" opacity="0.9"/>
+                  <path d="M57 110C62 117 70 121 79 121C88 121 95 118 101 111C98 119 90 124 81 128C71 131 60 130 51 124C52 118 54 114 57 110Z" fill="#d87b1d"/>
+                  <path d="M64 88C68 86 72 86 76 89C80 92 80 98 76 100C72 103 66 102 62 99C58 96 60 90 64 88Z" fill="#141414"/>
+                  <path d="M78 114C82 118 90 119 97 117C94 123 88 128 80 129C71 130 62 127 55 121C60 117 66 114 78 114Z" fill="#d91b1a"/>
+                  <path d="M81 89L92 83L100 89L91 96L81 89Z" fill="#141414"/>
+                  <path d="M62 70L52 73L47 65L58 62L62 70Z" fill="#f4c154"/>
+                  <path d="M72 58L67 46L76 39L84 54L72 58Z" fill="#f9e0a2"/>
+                  <path d="M94 63L102 47L112 52L103 70L94 63Z" fill="#f4d67a"/>
+                  <path d="M26 95C20 102 18 110 18 120C28 117 35 110 40 102C35 100 30 98 26 95Z" fill="#ff9e2a"/>
+                </svg>
+              </div>
             </div>
             <h3>Matemática</h3>
             <p>Fundamentos sólidos e resolução em alta velocidade para concursos militares.</p>
@@ -177,8 +269,41 @@
 
           <article class="course-card">
             <div class="course-header">
-              <div class="course-icon">⌘</div>
-              <span class="badge">NÍVEL 1</span>
+              <div class="course-icon" aria-hidden="true">
+                <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="lionFlame4" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ffef9a"/>
+                      <stop offset="35%" stop-color="#ffbb3b"/>
+                      <stop offset="65%" stop-color="#f76d1a"/>
+                      <stop offset="100%" stop-color="#b70f0f"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M20 86C26 36 61 18 86 26C100 30 108 40 114 52C124 69 126 94 113 112C98 133 70 141 47 133C31 127 21 112 20 86Z" fill="url(#lionFlame4)" opacity="0.96"/>
+                  <path d="M54 40C45 44 38 53 35 66C33 75 36 84 42 92C47 98 54 102 62 101C59 92 60 81 66 74C73 66 83 62 92 60C87 49 78 43 66 40C62 39 58 39 54 40Z" fill="#f9c65d" opacity="0.9"/>
+                  <path d="M59 90L72 82L82 91L71 104L59 90Z" fill="#f7d27a"/>
+                  <path d="M78 74L98 66L108 79L88 97L78 74Z" fill="#f3b14d"/>
+                  <path d="M58 95C49 111 39 119 28 124C36 128 46 130 58 129C69 128 80 125 89 117C81 109 71 101 58 95Z" fill="#ff5c1f"/>
+                  <path d="M72 103C82 122 96 130 112 133C100 139 82 144 63 139C46 134 34 122 29 109C41 110 57 110 72 103Z" fill="#d31111"/>
+                  <path d="M124 52C136 55 145 66 141 82C139 92 132 101 120 104C120 91 117 77 108 67C112 60 118 54 124 52Z" fill="#ffbf45" opacity="0.9"/>
+                  <path d="M97 65L108 43C117 48 122 56 123 66L111 78L97 65Z" fill="#f5c95f"/>
+                  <path d="M55 66C67 56 80 54 91 61C101 67 108 78 108 90C108 109 96 124 79 129C63 135 46 130 35 117C28 109 24 98 25 87C27 75 38 69 55 66Z" fill="#f3b964"/>
+                  <path d="M67 69C74 59 88 57 97 63C103 67 108 75 108 84C108 96 100 107 88 111C75 116 61 112 54 101C48 92 50 80 58 74C60 72 64 70 67 69Z" fill="#f9dd9d"/>
+                  <path d="M46 95C54 88 62 84 71 83C69 95 67 104 60 112C53 119 43 123 33 122C35 111 40 102 46 95Z" fill="#e58d2f"/>
+                  <path d="M67 85L77 90L68 98L58 92L67 85Z" fill="#151515"/>
+                  <path d="M80 90L89 96L81 102L72 96L80 90Z" fill="#151515"/>
+                  <path d="M46 97C52 99 58 103 61 109C53 112 46 112 40 109C39 104 41 100 46 97Z" fill="#be2d16"/>
+                  <path d="M59 101C66 109 80 111 90 104C95 100 99 95 101 89C110 97 112 108 105 118C98 129 84 136 69 135C53 134 40 128 32 115C35 110 41 105 48 102C52 100 56 100 59 101Z" fill="#f9d37d" opacity="0.9"/>
+                  <path d="M57 110C62 117 70 121 79 121C88 121 95 118 101 111C98 119 90 124 81 128C71 131 60 130 51 124C52 118 54 114 57 110Z" fill="#d87b1d"/>
+                  <path d="M64 88C68 86 72 86 76 89C80 92 80 98 76 100C72 103 66 102 62 99C58 96 60 90 64 88Z" fill="#141414"/>
+                  <path d="M78 114C82 118 90 119 97 117C94 123 88 128 80 129C71 130 62 127 55 121C60 117 66 114 78 114Z" fill="#d91b1a"/>
+                  <path d="M81 89L92 83L100 89L91 96L81 89Z" fill="#141414"/>
+                  <path d="M62 70L52 73L47 65L58 62L62 70Z" fill="#f4c154"/>
+                  <path d="M72 58L67 46L76 39L84 54L72 58Z" fill="#f9e0a2"/>
+                  <path d="M94 63L102 47L112 52L103 70L94 63Z" fill="#f4d67a"/>
+                  <path d="M26 95C20 102 18 110 18 120C28 117 35 110 40 102C35 100 30 98 26 95Z" fill="#ff9e2a"/>
+                </svg>
+              </div>
             </div>
             <h3>Informática</h3>
             <p>Conceitos básicos e avançados de sistemas, redes, softwares e segurança digital.</p>
